@@ -73,7 +73,7 @@ const App: React.FC = () => {
 
 
 
-  // adds the given item to the cart
+  // adds the item passed to the function to the cart
   const addToCart = (item: CartItemInterface) => {
     let userCart = cart
     userCart.push(item)
@@ -83,7 +83,7 @@ const App: React.FC = () => {
 
 
 
-  // removes the given item from the cart
+  // removes the  item passed to the function from the cart
   const removeFromCart = (item: CartItemInterface) => {
     let userCart = cart
     for (let i = 0; i < cart.length; i++) {
@@ -99,7 +99,7 @@ const App: React.FC = () => {
 
 
   // edits a specific item in the cart. 
-  // item_name is taken as a comparison as no two menu items share the same name
+  // item.item_name is taken as a comparison as no two menu items share the same name (simpler)
   const editCartItem = (item: CartItemInterface) => {
     let userCart = cart
     for (let i = 0; i < cart.length; i++) {
@@ -178,7 +178,7 @@ const App: React.FC = () => {
 export default App
 
 /*******************************************************/
-/*                     NOTE                            */
+/*                     NOTE TO SELF                    */
 /*   Initially, App FC was simply return <Navbar />,   */
 /*      nothing else. It grew some much as more        */
 /*           functionality was needed.                 */
