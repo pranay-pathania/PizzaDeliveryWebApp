@@ -29,7 +29,7 @@ The home page in 4 pictures <br><br><br><br>
 Sidebar <br><br><br><br>
 
 <img src="./screenshots/frontpage/sidebar-after-login.png" width=500 />
-Sidebar after login <br><br><br><br>
+Sidebar after login <br><br>
 
 ---
 
