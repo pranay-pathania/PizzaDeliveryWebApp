@@ -57,7 +57,7 @@ Review Form  <br><br><br><br>
 
 ### Order Page
 
-<img src="./screenshots/orderpage/orderpage1.png" width=500 /> <img src="./screenshots/orderpage/orderpage1.png" width=500 />
+<img src="./screenshots/orderpage/orderpage1.png" width=500 /> <img src="./screenshots/orderpage/orderpage2.png" width=500 />
 OrderPage  <br><br><br><br>
 
 <img src="./screenshots/orderpage/orderpage-hover-on-card.png" width=500 />
