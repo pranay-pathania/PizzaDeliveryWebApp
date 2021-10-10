@@ -45,6 +45,7 @@ Modal Example <br><br><br><br>
 <img src="./screenshots/login/logout.png" width=500 />
 Logout <br><br><br><br>
 
+---
 
 ### Review
 
@@ -54,6 +55,7 @@ All reviews  <br><br><br><br>
 <img src="./screenshots/review/review-form.png" width=500 />
 Review Form  <br><br><br><br>
 
+---
 
 ### Order Page
 
@@ -63,7 +65,7 @@ OrderPage  <br><br><br><br>
 <img src="./screenshots/orderpage/orderpage-hover-on-card.png" width=500 />
 On hovering, the opacity of the card increases, bringing it to attention  <br><br><br><br>
 
-
+---
 
 ### Cart Page
 
@@ -78,3 +80,5 @@ Cart Page after cart items have been finalised or confirmed. Changes cannot be m
 
 <img src="./screenshots/cart/order-placed.png" width=500 />
 If order was placed successfully <br><br><br><br>
+
+---
