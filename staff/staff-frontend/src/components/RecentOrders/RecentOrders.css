@@ -1,0 +1,27 @@
+.order-page{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.order-page h1{
+    font-size: 4rem;
+    margin: 20px;
+    font-family: 'Stick No Bills';
+}
+.all-orders{
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    row-gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#no-new-orders{
+    position: absolute;
+    left: 570px;
+}

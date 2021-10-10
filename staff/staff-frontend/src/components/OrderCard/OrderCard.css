@@ -1,0 +1,64 @@
+.order-container{
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px 10px;
+    width: 45vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 15px;
+}
+.order-container:hover{
+    box-shadow: 2px 2px 4px grey;
+}
+.order{
+    width: 45vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;   
+    font-size: 1rem;
+    font-family: 'Ubuntu' ,sans-serif;
+}
+.personal-info{
+    padding: 3px;
+    width: 25vw;
+    overflow-y: scroll;
+    margin-right: 5px;
+}
+.cart{
+    padding: 5px;
+    overflow-y: scroll;
+    width: 20vw;
+}
+.button-container{
+    position: relative;
+    top: 9px;
+    left: 380px;
+}
+.mark-complete, .mark-cancel{
+    font-size: 1rem;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.mark-complete{
+    background: rgb(221, 255, 169);
+    margin-right: 10px;
+}
+.mark-complete:hover{
+    background: chartreuse;
+}
+.mark-cancel{
+    background: rgb(255, 154, 136);
+}
+.mark-cancel:hover{
+    background: tomato;
+}
+.personal-info > p, .cart > p{
+    margin-bottom: 18px;
+}
