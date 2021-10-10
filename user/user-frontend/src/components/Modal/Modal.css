@@ -1,0 +1,44 @@
+.modal-container{
+    z-index: 10000000;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background: white;
+    width: 31vw;
+    height: 22vh;
+    padding: 5px 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.modal > h1{
+    font-size: 2.3rem;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.modal > p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.modal > button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+    background: rgb(252, 166, 151);
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    position: absolute;
+    top:405px;
+    left: 935px;
+}
+.modal > button:hover{
+    background: tomato;
+}

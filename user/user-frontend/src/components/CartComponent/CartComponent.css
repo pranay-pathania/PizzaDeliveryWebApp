@@ -1,0 +1,108 @@
+.cart-component{
+    /* border: 0.01px solid black; */
+    padding: 10px;
+    border-radius: 10px;
+    width: 35vw;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    background: rgb(255, 192, 181);
+}
+.cart-container{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border: 0.01px solid black; */
+    height: 60vh;
+    overflow-y: scroll;
+    padding: 5px;
+    background: rgb(235, 235, 235);
+}
+.cart-item-body{
+    /* border: 0.01px solid black; */
+    height: 14vh;
+    margin: 5px 0px;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 8px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.totals{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.totals > p{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 1.5rem;
+}
+.change-order{
+    width: 150px;
+    height:40px;
+    border-radius: 10px;
+    background:rgb(252, 160, 143);
+    transition: all 0.2s ease-in;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 1.1rem;
+}
+.change-order:hover{
+    background: tomato;
+    box-shadow: 1px 1px 3px rgb(88, 88, 88);
+}
+.cart-item-text{
+    display: flex;
+    flex-direction: row;
+}
+.cart-item-body > h1{
+    font-size: 2.3rem;
+    margin-bottom: 2px;
+}
+.cart-item-body > p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cart-item-buttons{
+    width: 50px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+    bottom: 90px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cart-item-buttons > button{
+    width: 50px;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.delete-from-cart-page{
+    width: 50px;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    position: relative;
+    left: 450px;
+    bottom:155px;
+}
+.cart-container button:hover{
+    color: grey;
+}
+.cart-is-empty{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 12vw;
+    top: 30vh;
+}

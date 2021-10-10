@@ -1,0 +1,45 @@
+.not-logged-in{
+    width: 100vw;
+    height: 100vh;
+    /* overflow-y: hidden; */
+}
+.not-logged-in-bg{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/winning-taste.jpg');
+    background-size: 100vw 130vh;
+    opacity: 0.4;
+}
+.nli-text{
+    position: absolute;
+    top: 145px;
+    left: 180px;
+    font-family: 'Stick No Bills', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+}
+.nli-text > h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nli-text > p, .cart-redirect > button{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 7px;
+}
+.cart-redirect > button{
+    font-family: 'Stick No Bills', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    background: rgb(253, 163, 147);
+    transition: all 0.2s ease-in;
+}
+.cart-redirect > button:hover{
+    background:rgb(253, 122, 99);
+}

@@ -1,0 +1,147 @@
+.cart-bg{
+    background: url('../../images/winning-taste.jpg');
+    background-size: 100vw 150vh;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+.cart-header{
+    position: absolute;
+    top: 88px;
+    left: 220px;
+}
+.cart-header > h1{
+    font-size: 3.4rem;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.order-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.finalise-order{
+    width: 200px;
+    height: 40px;
+    font-size: 1.3rem;
+    font-family: 'Stick No Bills', sans-serif;
+    border-radius: 10px;
+    border-color: transparent;
+    background: rgb(255, 155, 137);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.finalise-order:hover{
+    background: tomato;
+}
+.order-form{
+    width: 40vw;
+    height: 70vh;
+    background: coral;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5px;
+    box-sizing: border-box;
+}
+.order-form > h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.finalise-heading, .finalise-p{
+    font-family: 'Stick No Bills', sans-serif;
+    position: absolute;
+}
+.finalise-heading{
+    font-size: 3rem;
+    top: 150px;
+    right: 90px;
+}
+.finalise-p{
+    font-size: 2rem;
+    top: 210px;
+    right: 160px;
+}
+.of-container{
+    display: grid;
+    grid-template-columns: repeat(2, 18.5vw);
+    grid-template-rows: repeat(5, 50px);
+    grid-gap: 20px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.of-container > input{
+    height:30px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1.2rem;
+}
+.of-container > input:focus{
+    outline: none;
+}
+.payment-type{
+    font-family: 'Ubuntu',sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+select{
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+select:focus{
+    outline: none;
+}
+.payment-type label{
+    margin-bottom: 3px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+.of-container > textarea{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    border-color: transparent;
+    resize: none;
+}
+.of-container > textarea:focus{
+    outline: none;
+}
+.submit-order{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 1.3rem;
+    width: 10vw;
+    height: 5vh;
+    border-color: transparent;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    background: white;
+    cursor: pointer;
+    position: relative;
+    top:20px;
+}
+.submit-order:hover{
+    background: rgb(211, 211, 211);
+}
+.payment-type > div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 8px;
+}

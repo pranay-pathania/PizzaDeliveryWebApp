@@ -1,0 +1,28 @@
+footer{
+    width: 100vw;
+    height: 40vh;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(241, 241, 241);
+}
+footer h1{
+    font-size: 5rem;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-bottom: 20px;
+}
+footer button{
+    background: rgb(241, 241, 241);
+    border-color: transparent;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+footer button:hover{
+    background: rgb(189, 189, 189);
+}
+.footer-btn-logo{
+    width: 80px;
+    height: 80px;
+}

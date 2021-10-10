@@ -1,0 +1,27 @@
+.front-page-card{
+    background: url('../../images/PizzaBackground.jpg');
+    width: 100vw;
+    height: 75vh;
+    opacity: 0.8;
+}
+/* .other-page-card{
+    background: url('../../images/other-page-bg.jpg');
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 75vh;
+} */
+.intro-text{
+    width: 750px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 175px;
+    color: rgb(0, 0, 0);
+    font-family: 'Stick No Bills', sans-serif;
+    margin-left: 50px;
+}
+.intro-text > h1{
+    font-size: 5rem;
+}
+.intro-text > p{
+    font-size: 2rem;
+}

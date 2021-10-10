@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    box-sizing: border-box;
+    height: 75vh;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px 10px;
+    background: rgb(255, 213, 206);
+    transition: all 0.2s ease-in;
+}
+.info-card > img{
+    width: 25vw;
+    height: 33vh;
+    position: relative;
+    top: -7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info-card > h1{
+    font-size: 2.3rem;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.info-card > p{
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    margin: 3px;
+}
+.info-card:hover{
+    box-shadow: 1px 1px 5px black;
+    background: rgb(255, 190, 179);
+}
