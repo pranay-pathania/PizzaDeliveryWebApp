@@ -31,6 +31,8 @@ Sidebar <br><br><br><br>
 <img src="./screenshots/frontpage/sidebar-after-login.png" width=500 />
 Sidebar after login <br><br><br><br>
 
+---
+
 ### Login/Logout
 
 <img src="./screenshots/login/login.png" width=500 />
