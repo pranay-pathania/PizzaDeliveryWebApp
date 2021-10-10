@@ -46,16 +46,16 @@ const Navbar: React.FC = () => {
 
 
 
+    
     /* FUNCTIONS */
-
-
-    // toggles the state of sidebar
+    
+    // toggles the state of sidebar (open or close)
     const toggleSidebar = (): void => {
         setIsSidebarOpen(prev => !prev)
     }
 
 
-    // closes sidebar after a selsction has been made
+    // closes sidebar after a selection has been made
     const closeSidebarAfterSelection = (): void => {
         setIsSidebarOpen(false)
     }
@@ -125,22 +125,27 @@ const Navbar: React.FC = () => {
         {/* for switching to different routes  */}
         <Switch>
             <Route path="/" exact>
+                {/* frontpage component */}
                 <FrontPage />
             </Route>
             <Route path="/order" exact>
+                {/* orderpage component */}
                 <OrderPage />
             </Route>
             <Route path="/login" exact>
+                {/* login page component */}
                 <LoginPage />
             </Route>
             <Route path="/reviews" exact>
+                {/* review page component */}
                 <ReviewPage />
             </Route>
             <Route path="/cart" exact>
+                {/* cart page component */}
                 <CartPage />
             </Route>
             <Route path="*" >
-                {/* for any link not mentioned */}
+                {/* for any link not mentioned, or that does not exist */}
                 <ErrorPageNotFound />
             </Route>
         </Switch>
