@@ -17,6 +17,7 @@ There are two types of reload buttons.
 ---
 
 ### Screenshots
+
 Main frontpage as seen by the staff if any orders are placed
 <img src="./screenshots/all-orders.png" alt="main page with orders" width=500 />
 
