@@ -41,7 +41,7 @@ It has three major parts as of now:
 
 ---
 
-### Credits (because i was lazy to make up names and reviews)
+### Credits (because I was lazy to make up names and reviews)
 1. Pizza names and pictures have been taken from [Dominos India](https://www.dominos.co.in/). Please don't come after me.
 2. Reviews in the slider on reviews page have been taken from [reviews on Consumer Affairs](https://www.consumeraffairs.com/food/dominos.html)
 
