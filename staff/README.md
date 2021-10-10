@@ -18,14 +18,17 @@ There are two types of reload buttons.
 
 ### Screenshots
 
-Main frontpage as seen by the staff if any orders are placed
+
 <img src="./screenshots/all-orders.png" alt="main page with orders" width=500 />
+Main frontpage as seen by the staff if any orders are placed. <br>
 
-Main frontpage as seen by the staff if no orders are placed or all orders have been completed or cancelled
+
 <img src="./screenshots/all-orders-served.png" alt="main page without orders" width=500 />
+Main frontpage as seen by the staff if no orders are placed or all orders have been completed or cancelled. <br>
 
-Auto reload is on; notice the color of the auto reload button.
+
 <img src="./screenshots/auto-reload-on.png" alt="auto-reload-on" width=500 />
+Auto reload is on; notice the color of the auto reload button. <br>
 
 ---
 
