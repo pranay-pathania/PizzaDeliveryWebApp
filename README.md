@@ -29,20 +29,15 @@ It has three major parts as of now:
 
 ---
 
-### Immediate goals   
+### Takeaways for future projects   
 1. Add better styling (and make it responsive, hopefully)
 2. Encrypted passwords (very important)
+3. Send the user an email telling them that the order has been placed succesfully
 
 ---
 
-### Future Goals
-1. Add online payments to the payments option
-2. Send the user an email telling them that the order has been placed succesfully
-
----
-
-### Credits (because I was lazy to make up names and reviews)
-1. Pizza names and pictures have been taken from [Dominos India](https://www.dominos.co.in/). Please don't come after me.
+### Credits 
+1. Pizza names and pictures have been taken from [Dominos India](https://www.dominos.co.in/). 
 2. Reviews in the slider on reviews page have been taken from [reviews on Consumer Affairs](https://www.consumeraffairs.com/food/dominos.html)
 3. The company name has been taken from [this website](https://businessnamegenerator.com/pizza-business-name-generator-guide-ideas/)
 
